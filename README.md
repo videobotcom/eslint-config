@@ -19,19 +19,13 @@ pnpm add -D eslint @suppayami/eslint-config-vue
 #### Basic
 ```json
 {
-  "extends": "@suppayami/basic",
-  "parserOptions": {
-    "project": "./tsconfig.json"
-  }
+  "extends": "@suppayami/basic"
 }
 ```
 
 #### Vue
 ```json
 {
-  "extends": "@suppayami/vue",
-  "parserOptions": {
-    "project": "./tsconfig.json"
-  }
+  "extends": "@suppayami/vue"
 }
 ```

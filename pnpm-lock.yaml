@@ -17,6 +17,7 @@ importers:
       '@typescript-eslint/eslint-plugin': ^5.39.0
       '@typescript-eslint/parser': ^5.39.0
       eslint: ^8.25.0
+      eslint-config-standard: ^17.0.0
       eslint-config-standard-with-typescript: ^23.0.0
       eslint-plugin-import: ^2.26.0
       eslint-plugin-n: ^15.3.0
@@ -25,6 +26,7 @@ importers:
     dependencies:
       '@typescript-eslint/eslint-plugin': 5.39.0_cfd7h3iktziq6hcwahu2qxhjhy
       '@typescript-eslint/parser': 5.39.0_z4bbprzjrhnsfa24uvmcbu7f5q
+      eslint-config-standard: 17.0.0_a432y4gghichzqs5hexeiieuzm
       eslint-config-standard-with-typescript: 23.0.0_6ipo7nmwiaj6iscvygo72puzri
       eslint-plugin-import: 2.26.0_dzvnzej2un7roooznz6ef2if2q
       eslint-plugin-n: 15.3.0_eslint@8.25.0
