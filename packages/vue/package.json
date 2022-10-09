@@ -1,0 +1,19 @@
+{
+  "name": "@suppayami/eslint-config-vue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --config=index.js"
+  },
+  "keywords": [],
+  "author": "Dr.Yami <dr.yami.moe@gmail.com> (https://github.com/suppayami)",
+  "license": "MIT",
+  "dependencies": {
+    "@suppayami/eslint-config-basic": "workspace:*",
+    "eslint-plugin-vue": "^9.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.25.0"
+  }
+}
