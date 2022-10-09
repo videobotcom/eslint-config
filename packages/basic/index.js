@@ -60,6 +60,7 @@ module.exports = {
 		'no-multi-str': 'error',
 		'no-multi-spaces': 'error',
 		'no-tabs': ['off'],
+		'func-call-spacing': ['off', 'never'],
 
 		'prefer-const': [
 			'error',
