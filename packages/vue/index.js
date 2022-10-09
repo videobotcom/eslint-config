@@ -68,5 +68,6 @@ module.exports = {
 		'vue/space-infix-ops': 'error',
 		'vue/space-unary-ops': ['error', { words: true, nonwords: false }],
 		'vue/template-curly-spacing': 'error',
+		'vue/html-indent': ["error", "tab"],
 	},
 }
