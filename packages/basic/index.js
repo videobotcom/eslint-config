@@ -59,7 +59,7 @@ module.exports = {
 		'no-var': 'error',
 		'no-multi-str': 'error',
 		'no-multi-spaces': 'error',
-		'no-tabs': ['error', { allowIndentationTabs: true }],
+		'no-tabs': ['off'],
 
 		'prefer-const': [
 			'error',
