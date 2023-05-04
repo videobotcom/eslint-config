@@ -11,9 +11,9 @@
   "license": "MIT",
   "dependencies": {
     "@suppayami/eslint-config-basic": "workspace:*",
-    "eslint-plugin-vue": "^9.6.0"
+    "eslint-plugin-vue": "^9.11.0"
   },
   "devDependencies": {
-    "eslint": "^8.25.0"
+    "eslint": "^8.39.0"
   }
 }
