@@ -15,5 +15,7 @@ module.exports = {
 			'prefer-double',
 		],
 		'react/react-in-jsx-scope': 'off',
+		'react/jsx-indent': ['error', 'tab', { checkAttributes: true }],
+		'react/jsx-indent-props': ['error', 'tab'],
 	},
 }
