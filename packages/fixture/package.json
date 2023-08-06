@@ -15,14 +15,14 @@
   },
   "devDependencies": {
     "@suppayami/eslint-config-react": "workspace:^1.4.0",
-    "@types/react": "^18.0.28",
-    "@types/react-dom": "^18.0.11",
-    "@vitejs/plugin-react": "^4.0.0",
-    "eslint": "^8.38.0",
-    "eslint-config-prettier": "^8.8.0",
+    "@types/react": "^18.2.18",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.4",
+    "eslint": "^8.46.0",
+    "eslint-config-prettier": "^8.10.0",
     "eslint-plugin-prettier": "^4.2.1",
     "prettier": "^2.8.8",
-    "typescript": "^5.0.2",
-    "vite": "^4.3.2"
+    "typescript": "^5.1.6",
+    "vite": "^4.4.8"
   }
 }
