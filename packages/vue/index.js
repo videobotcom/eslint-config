@@ -2,6 +2,9 @@ module.exports = {
 	extends: [
 		'plugin:vue/vue3-recommended',
 		'@suppayami/eslint-config-basic',
+		'plugin:import/typescript',
+		'plugin:@typescript-eslint/strict',
+		'plugin:@typescript-eslint/stylistic',
 	],
 	parser: 'vue-eslint-parser',
 	parserOptions: {
@@ -77,5 +80,9 @@ module.exports = {
 		'vue/space-unary-ops': ['error', { words: true, nonwords: false }],
 		'vue/template-curly-spacing': 'error',
 		'vue/html-indent': ['error', 'tab'],
+
+		'no-unused-vars': 'off',
+		'no-undef': 'off',
+        '@typescript-eslint/no-unused-vars': 'warn',
 	},
 }
