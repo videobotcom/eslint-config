@@ -11,10 +11,10 @@
   "license": "MIT",
   "dependencies": {
     "@suppayami/eslint-config-basic": "workspace:*",
-    "eslint-plugin-react": "^7.33.1",
+    "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0"
   },
   "devDependencies": {
-    "eslint": "^8.46.0"
+    "eslint": "^8.54.0"
   }
 }

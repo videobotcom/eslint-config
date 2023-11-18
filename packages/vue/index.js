@@ -3,14 +3,22 @@ module.exports = {
 		'plugin:vue/vue3-recommended',
 		'@suppayami/eslint-config-basic',
 	],
+	parser: 'vue-eslint-parser',
+	parserOptions: {
+		parser: '@typescript-eslint/parser',
+		ecmaVersion: 'latest',
+		sourceType: 'module',
+	},
 	overrides: [
 		{
-			files: ['*.vue'],
+			files: ['*.ts', '*.tsx'],
 			parser: 'vue-eslint-parser',
 			parserOptions: {
 				parser: '@typescript-eslint/parser',
+				ecmaVersion: 'latest',
+				sourceType: 'module',
 			},
-		},
+		}
 	],
 	rules: {
 		'vue/component-tags-order': ['error', {
