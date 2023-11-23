@@ -14,7 +14,7 @@ const suppayami = (
 		{
 			...options,
 			stylistic: options?.stylistic === false
-				? undefined
+				? false
 				: { indent: 'tab', jsx: true, quotes: 'single', semi: false },
 		},
 		{
