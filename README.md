@@ -2,6 +2,11 @@
 
 [![code style](https://antfu.me/badge-code-style.svg)](https://github.com/antfu/eslint-config)
 
+## Defaults
+- Single quotes, no semi, tabs
+- TypeScript, JSX, React, Vue support
+- Use ESLint Stylistic for formatting by default, can be disabled to use other formatter.
+
 ## Usage
 
 By default, Vue and React settings are not enabled. You can enable them by importing `reactConfig()` or `vueConfig()` from `@suppayami/eslint-config` or call `suppayami({ react: true })` / `suppayami({ vue: true })`.
@@ -43,7 +48,7 @@ module.exports = suppayami()
 ```
 
 ### VSCode Support
-```json
+```jsonc
 {
 	// Enable the ESlint flat config support
 	"eslint.experimental.useFlatConfig": true,
