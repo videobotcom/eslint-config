@@ -12,10 +12,14 @@
 By default, Vue and React settings are not enabled. You can enable them by importing `reactConfig()` or `vueConfig()` from `@suppayami/eslint-config` or call `suppayami({ react: true })` / `suppayami({ vue: true })`.
 
 ### Install
-`pnpm i -D @suppayami/eslint-config`
+```
+pnpm i -D @suppayami/eslint-config
+```
 
 ### React Install
-`pnpm i -D @suppayami/eslint-config eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-react-refresh`
+```
+pnpm i -D @suppayami/eslint-config eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-react-refresh
+```
 
 ### Create config file
 With `"type": "module"` in `package.json` (recommended):
