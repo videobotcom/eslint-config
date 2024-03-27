@@ -34,6 +34,9 @@ const suppayami = (
 					alphabetize: { order: 'ignore' },
 				}],
 				'sort-imports': 'off',
+				...options?.vue && {
+					'vue/html-indent': ['error', 'tab'],
+				},
 			},
 		},
 		...args,
