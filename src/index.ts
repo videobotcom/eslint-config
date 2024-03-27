@@ -23,6 +23,10 @@ const suppayami = (
 				'antfu/top-level-function': 'off',
 				'curly': ['error', 'all'],
 				'style/brace-style': ['error', '1tbs', { allowSingleLine: true }],
+				'import/order': ['off', {
+					alphabetize: { order: 'ignore' },
+				}],
+				'sort-imports': 'off',
 			},
 		},
 		...args,
