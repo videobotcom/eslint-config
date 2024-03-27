@@ -16,13 +16,20 @@ const suppayami = (
 			...options,
 			stylistic: options?.stylistic === false
 				? false
-				: { indent: 'tab', jsx: true, quotes: 'single', semi: false },
+				: {
+						indent: 'tab',
+						jsx: true,
+						quotes: 'single',
+						semi: false,
+						overrides: {
+							'style/brace-style': ['error', '1tbs', { allowSingleLine: true }],
+						},
+					},
 		},
 		{
 			rules: {
 				'antfu/top-level-function': 'off',
 				'curly': ['error', 'all'],
-				'style/brace-style': ['error', '1tbs', { allowSingleLine: true }],
 				'import/order': ['off', {
 					alphabetize: { order: 'ignore' },
 				}],
