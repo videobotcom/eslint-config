@@ -1,5 +1,5 @@
-import type { FlatConfigItem, OptionsConfig } from '@antfu/eslint-config'
-import type { FlatConfigPipeline } from 'eslint-flat-config-utils'
+import type { OptionsConfig, TypedFlatConfigItem, ConfigNames } from '@antfu/eslint-config'
+import type { FlatConfigComposer } from 'eslint-flat-config-utils'
 import antfu from '@antfu/eslint-config'
 
 type Options = Omit<OptionsConfig, 'stylistic'> & {
@@ -10,7 +10,7 @@ type RestParameters<F> = F extends (arg0: any, ...rest: infer R) => any ? R : ne
 const suppayami = (
 	options: Options = { react: false, vue: false },
 	...args: RestParameters<typeof antfu>
-): FlatConfigPipeline<FlatConfigItem> =>
+): FlatConfigComposer<TypedFlatConfigItem, ConfigNames> =>
 	antfu(
 		{
 			...options,
