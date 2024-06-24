@@ -21,7 +21,7 @@ pnpm i -D @suppayami/eslint-config @antfu/eslint-config@^2
 
 ### React Install
 ```
-pnpm i -D @suppayami/eslint-config eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-react-refresh
+pnpm i -D @suppayami/eslint-config @eslint-react/eslint-plugin eslint-plugin-react-hooks eslint-plugin-react-refresh
 ```
 
 ### Create config file
