@@ -7,10 +7,6 @@ settings:
 importers:
 
   .:
-    dependencies:
-      '@suppayami/eslint-config':
-        specifier: 'link:'
-        version: 'link:'
     devDependencies:
       '@antfu/eslint-config':
         specifier: ^2.15.0
