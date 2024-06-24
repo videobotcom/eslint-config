@@ -11,9 +11,12 @@
 
 By default, Vue and React settings are not enabled. You can enable them by importing `reactConfig()` or `vueConfig()` from `@suppayami/eslint-config` or call `suppayami({ react: true })` / `suppayami({ vue: true })`.
 
+Read more customisation from [@antfu/eslint-config](https://github.com/antfu/eslint-config?tab=readme-ov-file#customization)
+
 ### Install
+This config depends on `@antfu/eslint-config@^2` as peerDependency.
 ```
-pnpm i -D @suppayami/eslint-config
+pnpm i -D @suppayami/eslint-config @antfu/eslint-config@^2
 ```
 
 ### React Install
