@@ -32,7 +32,6 @@
 		"typecheck": "tsc --noEmit"
 	},
 	"peerDependencies": {
-		"@antfu/eslint-config": "^2.15.0",
 		"@eslint-react/eslint-plugin": "^1.5.8",
 		"eslint": ">=8.40.0",
 		"eslint-plugin-react-hooks": "^4.6.0",
@@ -49,8 +48,10 @@
 			"optional": true
 		}
 	},
+	"dependencies": {
+		"@antfu/eslint-config": "^2.21.1"
+	},
 	"devDependencies": {
-		"@antfu/eslint-config": "^2.15.0",
 		"@eslint-react/eslint-plugin": "^1.5.8",
 		"@types/eslint": "^8.56.10",
 		"@types/node": "^20.14.2",
