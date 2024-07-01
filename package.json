@@ -1,12 +1,9 @@
 {
-	"name": "@suppayami/eslint-config",
+	"name": "@videobotcom/eslint-config",
 	"type": "module",
-	"version": "3.5.1",
+	"version": "1.0.0",
 	"packageManager": "pnpm@9.2.0",
-	"description": "Yami's ESLint Config",
-	"author": "Dr.Yami <dr.yami.moe@gmail.com> (https://github.com/suppayami)",
-	"license": "MIT",
-	"homepage": "https://github.com/suppayami/eslint-config",
+	"description": "Videobot ESLint Config",
 	"keywords": [
 		"eslint-config"
 	],
@@ -62,7 +59,7 @@
 		"eslint-plugin-react-hooks": "^4.6.2",
 		"eslint-plugin-react-refresh": "^0.4.7",
 		"tsup": "^8.1.0",
-		"typescript": "^5.4.5"
+		"typescript": "^5.5.3"
 	},
 	"pnpm": {
 		"overrides": {
