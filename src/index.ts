@@ -37,6 +37,8 @@ const videobot = (
 				...options?.vue && {
 					'vue/html-indent': ['error', 'tab'],
 				},
+				'react/prefer-shorthand-fragment': 'off',
+				'react/avoid-shorthand-fragment': 'warn',
 			},
 		},
 		...args,
